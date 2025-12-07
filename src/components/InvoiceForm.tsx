@@ -82,7 +82,7 @@ const InvoiceForm: React.FC = () => {
   return (
     <Formik initialValues={initialValues} onSubmit={handleSubmit}>
       {({ values, setFieldValue }) => (
-        <Card className="w-full max-w-4xl mx-auto">
+        <Card className="w-full mx-auto">
           <CardHeader className="p-4 sm:p-6">
             <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
               <div className="w-full">
